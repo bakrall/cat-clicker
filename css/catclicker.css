@@ -1,4 +1,24 @@
+.cat-link {
+	display: inline-block;
+}
+
 .cat {
-	max-width: 300px;
+	max-width: 150px;
 	height: auto;
+}
+
+.image-display {
+	width: 400px;
+	height: auto;
+	border: 1px solid #000;
+}
+
+.image-display > img {
+	height: auto;
+	width: 100%;
+}
+
+button {
+	min-width: 155px;
+	text-align: center;
 }

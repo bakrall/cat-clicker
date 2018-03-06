@@ -13,22 +13,47 @@
 
     </head>
     <body>
-        <div class="cat-1">
-            <h2>Micky</h2>
-            <p>Number of clicks: <span class="count-display"></span></p>
-            <img src="img/kitty.jpg" class="cat" data-counter>
-        </div>
-        <div class="cat-2">
-            <h2>John</h2>
-            <p>Number of clicks: <span class="count-display"></span></p>
-            <img src="img/kitty.jpg" class="cat" data-counter>
-        </div>
+        <ul class="cat-list">
+            <li>
+                <a href="" class="cat-link">
+                    <img src="img/kitty.jpg" class="cat" alt="sweet cat" data-name="Micky">
+                </a>
+            </li>
+            <li>
+                <a href="" class="cat-link">
+                    <img src="img/rail.jpg" class="cat" alt="cat on a rail" data-name="John">
+                </a>
+            </li>
+            <li>
+                <a href="" class="cat-link">
+                    <img src="img/tiger.jpg" class="cat" alt="tiger" data-name="Pat">
+                </a>
+            </li>
+            <li>
+                <a href="" class="cat-link">
+                    <img src="img/sit.jpg" class="cat" alt="grey cat" data-name="Robby">
+                </a>
+            </li>
+            <li>
+                <a href="" class="cat-link">
+                    <img src="img/face.jpg" class="cat" alt="cat looks in the distance" data-name="Twister">
+                </a>
+            </li>
+        </ul>
+
+        <div class="image-display">
+            <h2 class="cat-name">Micky</h2>
+            <p>Number of clicks: <span class="count-display"></span></p> 
+            <img src="img/kitty.jpg" data-counter>
+        </div> 
+
+        <button data-counter class="count-display">Click me to count clicks</button>
 
 
         <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script> 
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script> 
 
         <script src="js/catclicker.js"></script>
         <!-- // <script src="js/catclicker_jquery.js"></script> -->
